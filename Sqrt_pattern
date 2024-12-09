@@ -20,3 +20,19 @@ def hallo_sqrt(n):
 sqrt_pattern(10)
 print("\n\n")
 hallo_sqrt(10)
+
+#To print increasing Traingle Patterns
+for i in range(10):
+    for j in range(i+1):
+        print("*",end=' ')
+    print(' ')
+
+print("\n")
+ # Decreasing traingle
+for i in range(10):
+    for j in range(10,0,-1):
+        if j<10-i:
+            print("* ",end=' ')
+    print()
+
+print('\n')
